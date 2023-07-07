@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KalkulatorIskra</string>
+    <string name="usluga">услуга</string>
+    <string name="cijena">цена</string>
+    <string name="hrana">еда</string>
+    <string name="brzina">скорость</string>
+    <string name="ocijeni">оценивать</string>
+    <string name="uslugaRatingBarDescription">оценить сервис</string>
+    <string name="cijenaRatingBarDescription">" оценить цену"</string>
+    <string name="hranaRatingBarDescription">оценить еду</string>
+    <string name="brzinaRatingBarDescription">оценить скорость</string>
+    <string name="end">окончательная оценка:</string>
+</resources>

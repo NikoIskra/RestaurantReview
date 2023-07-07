@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KalkulatorIskra</string>
+    <string name="usluga">Usluga</string>
+    <string name="cijena">Cijena</string>
+    <string name="hrana">Hrana</string>
+    <string name="brzina">Brzina</string>
+    <string name="ocijeni">Ocijeni!</string>
+    <string name="uslugaRatingBarDescription">Ocijenite uslugu</string>
+    <string name="cijenaRatingBarDescription">Ocijenite cijenu</string>
+    <string name="hranaRatingBarDescription">Ocijenite hranu</string>
+    <string name="brzinaRatingBarDescription">Ocijenite brzinu</string>
+    <string name="end">Konačna ocjena:</string>
+</resources>

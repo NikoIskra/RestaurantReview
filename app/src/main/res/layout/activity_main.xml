@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top |center"
+    android:background="#C9D5EB"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/uslugaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/usluga"></TextView>
+
+    <RatingBar
+        android:id="@+id/uslugaRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="#E48528"
+        android:contentDescription="@string/uslugaRatingBarDescription"></RatingBar>
+
+    <TextView
+        android:id="@+id/cijenaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/cijena"></TextView>
+
+    <RatingBar
+        android:id="@+id/cijenaRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="#E48528"
+        android:contentDescription="@string/cijenaRatingBarDescription"></RatingBar>
+
+    <TextView
+        android:id="@+id/hranaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hrana"></TextView>
+
+    <RatingBar
+        android:id="@+id/hranaRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="#E48528"
+        android:contentDescription="@string/hranaRatingBarDescription"></RatingBar>
+
+    <TextView
+        android:id="@+id/brzinaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/brzina"></TextView>
+
+    <RatingBar
+        android:id="@+id/brzinaRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="#E48528"
+        android:contentDescription="@string/brzinaRatingBarDescription"></RatingBar>
+
+    <TextView
+        android:id="@+id/finalNajava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/end"></TextView>
+
+    <TextView
+        android:id="@+id/ocjenaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""></TextView>
+
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="#C7A285"
+        android:text="@string/ocijeni"></Button>
+
+    <SeekBar
+        android:id="@+id/seekBarNumStars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </SeekBar>
+
+
+</LinearLayout>
